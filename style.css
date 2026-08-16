@@ -308,6 +308,7 @@ h2{
     font-size:14px;
     line-height:1.5;
     margin-top:auto;
+    text-align:center;
 }
 
 .show-more{
@@ -615,7 +616,72 @@ h2{
 .research-card .btn{
     display:inline-flex;
 }
+/* ===== ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ ===== */
 
+.footer-legal{
+    margin-top:35px;
+    padding-top:30px;
+    border-top:1px solid #E5E5E5;
+    color:#777;
+    font-size:12px;
+    line-height:1.6;
+}
+
+/* Реквизиты ИП — по центру */
+.footer-ip{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.footer-ip p{
+    margin:4px 0;
+}
+
+.footer-ip strong{
+    color:#555;
+}
+
+/* Договор — по ширине */
+.footer-contract{
+    max-width:900px;
+    margin:22px auto 0;
+    text-align:justify;
+}
+
+.footer-contract a{
+    color:#37B38A;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-contract a:hover{
+    opacity:.7;
+}
+
+.footer-contract strong{
+    font-weight:700;
+}
+
+/* Мобильная версия */
+@media(max-width:600px){
+
+    .footer-legal{
+        font-size:11px;
+        padding-top:25px;
+        margin-top:25px;
+    }
+
+    .footer-ip{
+        padding:0 10px;
+    }
+
+    .footer-contract{
+        padding:0 10px;
+        text-align:justify;
+    }
+
+}
 
 
 /* RESPONSIVE */
